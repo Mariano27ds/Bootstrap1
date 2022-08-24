@@ -1,7 +1,21 @@
 
+@keyframes texto{
+    0%{ 
+        opacity: 0;
+     }
+     100%{
+        opacity: 100;
+     }
+}
+
+
+
 h1{
     color: black;
     text-align: center;
+    animation-name: texto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
 .contenedor{
@@ -11,6 +25,7 @@ h1{
     "section1 section1 section2 section2"
     "seccion1 seccion1 section2 section2"
     "footer footer footer footer";
+    background: linear-gradient(to top,  #eaf9d9,#af7a6d);
 }
 header{
     background-color: #af7a6d;
@@ -32,7 +47,6 @@ header{
     justify-content: center;
     margin: 15px;
     padding: 15px;
-    border: #af7a6d 3px solid;
     border-radius: 5px;
 }
 
@@ -50,12 +64,16 @@ li{
 .subtitulo {
     color: black;
     text-align: center;
+    animation-name: texto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
 
 }
 
 
 body {
-    background-color: #eaf9d9;
+    background: linear-gradient(to top,  #eaf9d9,#af7a6d);
 }
 .menuNavegacion{
     display: inline;
@@ -137,7 +155,14 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
 }
+
+.cajaUno:hover{
+    height: 600px;
+    width: 600px;
+}
+
 .cajaDos{
     grid-area: caja2;
     display: flex;
@@ -145,6 +170,12 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
+}
+
+.cajaDos:hover{
+    height: 600px;
+    width: 600px;
 }
 .cajaTres{
     grid-area: caja3;
@@ -153,7 +184,12 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
+}
 
+.cajaTres:hover{
+    height: 600px;
+    width: 600px;
 }
 .cajaCuatro{ 
     grid-area: caja4;
@@ -162,6 +198,12 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
+}
+
+.cajaCuatro:hover{
+    height: 600px;
+    width: 600px;
 }
 .cajaCinco {
     grid-area: caja5;
@@ -170,6 +212,12 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
+}
+
+.cajaCinco:hover{
+    height: 600px;
+    width: 600px;
 }
 .cajaSeis { 
     grid-area: caja6;
@@ -178,14 +226,21 @@ img {
     display: block;
     height: 400px;
     width: 400px;
+    transition: all 1s;
 }
-    
+
+.cajaSeis:hover{
+    height: 600px;
+    width: 600px;
+}
+
 
 .botonComprar {
    background-color: #af7a6d;
     font-family: sans-serif;
     border-radius: 5px;
     display: block;
+    transform: translate(50px);
 
 }
 
