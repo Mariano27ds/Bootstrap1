@@ -106,17 +106,7 @@ footer {
         "footer footer";
 
 }
-    .contenedorProductos{
-    grid-template-areas: 
-    "header header"
-    "caja1 caja1"
-    "caja2 caja2"
-    "caja3 caja3"
-    "caja4 caja4"
-    "caja5 caja5"
-    "caja6 caja6"
-    "footer footer";
-}
+   
 .cajaFormulario{
     margin-left: 40%;
     margin-right: 40%;
@@ -155,13 +145,9 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
+
 }
 
-.cajaUno:hover{
-    height: 600px;
-    width: 600px;
-}
 
 .cajaDos{
     grid-area: caja2;
@@ -170,13 +156,9 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
 }
 
-.cajaDos:hover{
-    height: 600px;
-    width: 600px;
-}
+
 .cajaTres{
     grid-area: caja3;
     display: flex;
@@ -184,13 +166,9 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
 }
 
-.cajaTres:hover{
-    height: 600px;
-    width: 600px;
-}
+
 .cajaCuatro{ 
     grid-area: caja4;
     display: flex;
@@ -198,13 +176,10 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
+    
 }
 
-.cajaCuatro:hover{
-    height: 600px;
-    width: 600px;
-}
+
 .cajaCinco {
     grid-area: caja5;
     display: flex;
@@ -212,13 +187,10 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
+    
 }
 
-.cajaCinco:hover{
-    height: 600px;
-    width: 600px;
-}
+
 .cajaSeis { 
     grid-area: caja6;
     display: flex;
@@ -226,13 +198,9 @@ img {
     display: block;
     height: 400px;
     width: 400px;
-    transition: all 1s;
 }
 
-.cajaSeis:hover{
-    height: 600px;
-    width: 600px;
-}
+
 
 
 .botonComprar {
